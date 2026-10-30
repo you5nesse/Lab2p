@@ -20,7 +20,7 @@ class Client:
 
     def afficher(self):
         print(f"Client : {self.nom}, Solde : {self.compte.get_solde()}€")
-cli = Client("Yassir")
-cli.compte.deposer(300)
-cli.compte.retirer(50)
+cli = Client("amine")
+cli.compte.deposer(200)
+cli.compte.retirer(40)
 cli.afficher()
