@@ -23,11 +23,11 @@ class CompteBancaire:
         return f"Titulaire : {self._titulaire}, Solde : {self.solde} €"
 
 if __name__ == "__main__":
-    compte = CompteBancaire("Ali", 1000)
-    compte.deposer(200)
-    compte.retirer(150)
+    compte = CompteBancaire("ahmed", 2000)
+    compte.deposer(220)
+    compte.retirer(130)
     print(compte)
     print("Solde accessible (lecture) :", compte.solde)
 
     # Tentative de modification directe
-    compte.solde = 500  # Ne fonctionnera pas   
+    compte.solde = 400  # Ne fonctionnera pas   
